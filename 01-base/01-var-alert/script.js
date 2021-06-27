@@ -11,6 +11,8 @@
 
 (function() {
 
-    // your code here
+const x = "Hello world!"
+
+alert(x)
 
 })();

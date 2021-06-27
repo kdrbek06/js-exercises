@@ -11,6 +11,8 @@
 
 (function() {
 
+   var x = document.getElementById("target").innerText = "HAHAHHAHA Never say never!!"
+
     // your code here
 
 })();

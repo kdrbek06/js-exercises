@@ -10,7 +10,46 @@
 // You will have time to focus on it later.
 
 (function() {
+    /* let red = document.getElementById('red');
+    red.addEventListener('click', () =>{
+        let body = document.getElementsByTagName('body');
+        body[0].style.backgroundColor = "red";
+    
+    });
+    let green = document.getElementById('green');
+    green.addEventListener('click', () =>{
+        let body = document.getElementsByTagName('body');
+        body[0].style.backgroundColor = "green";
+    
+    });
+    let yellow = document.getElementById('yellow');
+    yellow.addEventListener('click', () =>{
+        let body = document.getElementsByTagName('body');
+        body[0].style.backgroundColor = "yellow";
+    
+    });
+    let blue = document.getElementById('blue');
+    blue.addEventListener('click', () =>{
+        let body = document.getElementsByTagName('body');
+        body[0].style.backgroundColor = "blue";
+    
+    }); */
 
-    // your code here
+
+const colors = ['red', 'green', 'yellow','blue'];
+
+// FIRST WAY TO CALL ELEMENT
+// var body = document.getElementsByTagName('body');
+
+var body = document.querySelector("body");
+for(let i = 0; i < colors.length; i++){
+    
+    let button = document.getElementById(colors[i]);
+    button.addEventListener('click', () =>{
+        body.style.backgroundColor = colors[i];
+    
+    });
+}
 
 })();
+

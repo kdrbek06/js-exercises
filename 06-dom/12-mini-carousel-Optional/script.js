@@ -19,6 +19,24 @@
         "../../_shared/img/map.svg",
     ];
 
+
+    
+    var i = 1
+    
+
+    document.querySelector("#next").addEventListener("click", () => {
+        
+        document.querySelector("img").src = gallery[i];
+        i++;
+        if(i === gallery.length){
+            i=0;
+        }
+        
+        
+    });
+    
+
+    
     // your code here
 
 })();

@@ -11,8 +11,19 @@ const movies = [
   `Lawrence of Arabia`,
 ];
 
+// document.write(`<ol>`);
+// for (let i = 0; i < movies.length; i++) {
+//   document.write(`<li>${movies[i]}</li>`);
+// }
+// document.write(`</ol>`);
+
+
+// document.write(`<ol>`);
+// for (var s of movies) {
+//   document.write(`<li>${s}</li>`);
+// }
+// document.write(`</ol>`);
+
 document.write(`<ol>`);
-for (let i = 0; i < movies.length; i++) {
-  document.write(`<li>${movies[i]}</li>`);
-}
+movies.forEach(s => document.write(`<li>${s}</li>`))
 document.write(`</ol>`);
