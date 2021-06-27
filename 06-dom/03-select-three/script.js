@@ -11,6 +11,8 @@
 
 (function() {
 
-    // your code here
+    document.querySelectorAll(".target").forEach(item => {
+        item.innerHTML = "HAHHAHAHAHHA "
+    })
 
 })();

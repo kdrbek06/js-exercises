@@ -11,6 +11,5 @@
 
 (function() {
 
-    // your code here
-
+    document.querySelector("#target").innerHTML = "HAHAHHAHHAHHA Never say NEVER!!"
 })();
