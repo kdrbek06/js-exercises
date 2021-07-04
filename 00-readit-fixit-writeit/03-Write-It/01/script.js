@@ -36,7 +36,7 @@ document.write(`</ul>`); */
 
 document.write(`<ul>`);
 
-movies.forEach(x => document.write(`<li>${x}</li>`))
+movies.forEach(movies => document.write(`<li>${movies}</li>`))
 
 document.write(`</ul>`);
 
